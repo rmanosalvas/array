@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    var movies = ["saving private ryan", "friday night lights", "the fast and the furious", "training day"];
+    var travel = ["spain", "portugal", "italy", "ecuador", "mexico", "guatemala", "englad", "dominican republic", "jamaica", "haiti"]
+
+    var favoriteMovie = prompt("What is your favorite movie?");
+    var favoriteTravel = prompt("What country's have you visited?");
+
+    var favoriteMovieLower = favoriteMovie.toLowerCase();
+    var favoriteTravelLower = favoriteTravel.toLowerCase();
+
+    if (movies.indexOf(favoriteMovieLower) === -1) {
+        alert("Nah. I havent seen that movie")
+    } else {
+        alert("hell yea, i love that movie!")
+    }
+
+    if (travel.indexOf(favoriteTravelLower) === -1) {
+        alert("Oh, i havent been there yet!")
+    } else {
+        alert("Oh i loved that place!")
+    }
+    
+
+    </script>
+</body>
+</html>
